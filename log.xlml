@@ -1,0 +1,48 @@
+[9313:9313:1007/011258.279200:ERROR:ui/gl/init/gl_factory.cc:102] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=opengl),(gl=egl-angle,angle=opengles),(gl=egl-angle,angle=vulkan),(gl=egl-angle,angle=swiftshader)].
+[9313:9313:1007/011258.287200:ERROR:components/viz/service/main/viz_main_impl.cc:189] Exiting GPU process due to errors during initialization
+[9369:9369:1007/011258.425087:ERROR:ui/gl/init/gl_factory.cc:102] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=opengl),(gl=egl-angle,angle=opengles),(gl=egl-angle,angle=vulkan),(gl=egl-angle,angle=swiftshader)].
+[9369:9369:1007/011258.427085:ERROR:components/viz/service/main/viz_main_impl.cc:189] Exiting GPU process due to errors during initialization
+[9419:9419:1007/011258.491282:ERROR:ui/gl/init/gl_factory.cc:102] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=opengl),(gl=egl-angle,angle=opengles),(gl=egl-angle,angle=vulkan),(gl=egl-angle,angle=swiftshader)].
+[9419:9419:1007/011258.507004:ERROR:components/viz/service/main/viz_main_impl.cc:189] Exiting GPU process due to errors during initialization
+[9492:9492:1007/011258.599668:ERROR:ui/gl/init/gl_factory.cc:102] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=opengl),(gl=egl-angle,angle=opengles),(gl=egl-angle,angle=vulkan),(gl=egl-angle,angle=swiftshader)].
+[9492:9492:1007/011258.605654:ERROR:components/viz/service/main/viz_main_impl.cc:189] Exiting GPU process due to errors during initialization
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[9259:9296:1007/011302.007331:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[9510:9510:1007/011306.275738:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1101] [GroupMarkerNotSet(crbug.com/242999)!:A0B02F006C250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[9510:9510:1007/011306.414795:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1101] [GroupMarkerNotSet(crbug.com/242999)!:A0E02F006C250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[9510:9510:1007/011306.875387:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1101] [GroupMarkerNotSet(crbug.com/242999)!:A00098006C250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[9510:9510:1007/011306.959066:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1101] [GroupMarkerNotSet(crbug.com/242999)!:A01030006C250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[9510:9510:1007/011307.589959:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1101] [GroupMarkerNotSet(crbug.com/242999)!:A06098006C250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+flameshot: warning: If the useGrimAdapter setting is not enabled, the dbus protocol will be used. It should be noted that using the dbus protocol under wayland is not recommended. It is recommended to enable the useGrimAdapter setting in flameshot.ini to activate the grim-based general wayland screenshot adapter
+flameshot: info: Capture saved to clipboard.
+[
+  {
+    "success": true
+  }
+]
+[12789:12789:1007/012332.703141:ERROR:ui/gl/init/gl_factory.cc:102] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=opengl),(gl=egl-angle,angle=opengles),(gl=egl-angle,angle=vulkan),(gl=egl-angle,angle=swiftshader)].
+[12789:12789:1007/012332.704405:ERROR:components/viz/service/main/viz_main_impl.cc:189] Exiting GPU process due to errors during initialization
+[12841:12841:1007/012332.809478:ERROR:ui/gl/init/gl_factory.cc:102] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=opengl),(gl=egl-angle,angle=opengles),(gl=egl-angle,angle=vulkan),(gl=egl-angle,angle=swiftshader)].
+[12841:12841:1007/012332.811591:ERROR:components/viz/service/main/viz_main_impl.cc:189] Exiting GPU process due to errors during initialization
+[12864:12864:1007/012332.831325:ERROR:ui/gl/init/gl_factory.cc:102] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=opengl),(gl=egl-angle,angle=opengles),(gl=egl-angle,angle=vulkan),(gl=egl-angle,angle=swiftshader)].
+[12864:12864:1007/012332.833659:ERROR:components/viz/service/main/viz_main_impl.cc:189] Exiting GPU process due to errors during initialization
+[12875:12875:1007/012332.848949:ERROR:ui/gl/init/gl_factory.cc:102] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=opengl),(gl=egl-angle,angle=opengles),(gl=egl-angle,angle=vulkan),(gl=egl-angle,angle=swiftshader)].
+[12875:12875:1007/012332.850399:ERROR:components/viz/service/main/viz_main_impl.cc:189] Exiting GPU process due to errors during initialization
+[12947:12947:1007/012332.914447:ERROR:ui/gl/init/gl_factory.cc:102] Requested GL implementation (gl=none,angle=none) not found in allowed implementations: [(gl=egl-angle,angle=opengl),(gl=egl-angle,angle=opengles),(gl=egl-angle,angle=vulkan),(gl=egl-angle,angle=swiftshader)].
+[12947:12947:1007/012332.916072:ERROR:components/viz/service/main/viz_main_impl.cc:189] Exiting GPU process due to errors during initialization
+[12962:12962:1007/012337.391742:ERROR:gpu/command_buffer/service/gles2_cmd_decoder_passthrough.cc:1101] [GroupMarkerNotSet(crbug.com/242999)!:A0B02F0074080000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[12737:12771:1007/012347.349044:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[12737:12771:1007/012407.614025:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[12737:12771:1007/012451.091749:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+Error: Custom { kind: NotFound, error: "no socket found" }
+[
+  {
+    "success": true
+  }
+]
+Warning: 'ozone-platform-hint' is not in the list of known options, but still passed to Electron/Chromium.
+Warning: 'enable-features' is not in the list of known options, but still passed to Electron/Chromium.
+~
+~
