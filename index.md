@@ -1,8 +1,8 @@
 ---
-tittle:page
-layout:site
-features:
-author:kubu
+tittle: page
+layout: site
+features: https://skia.googlesource.com/buildbot.git
+author: seriki yakub
 ---
 <!-- Header -->
 <div class="header">
@@ -36,5 +36,4 @@ author:kubu
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </body>
 <script src="app.js"></script>
-</html>
-
+<document></document>
