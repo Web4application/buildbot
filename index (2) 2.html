@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>ZipObject API | project_pilot_ai</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="ZipObject API" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Automated AI-Powered Project Management &amp; Code Intelligence" />
+<meta property="og:description" content="Automated AI-Powered Project Management &amp; Code Intelligence" />
+<link rel="canonical" href="https://web4application.github.io/project_pilot_ai/api_zipobject.html" />
+<meta property="og:url" content="https://web4application.github.io/project_pilot_ai/api_zipobject.html" />
+<meta property="og:site_name" content="project_pilot_ai" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="ZipObject API" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Automated AI-Powered Project Management &amp; Code Intelligence","headline":"ZipObject API","url":"https://web4application.github.io/project_pilot_ai/api_zipobject.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/project_pilot_ai/assets/css/style.css?v=8fed81b9e45dff6980506e760799cd2be0a42274">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/project_pilot_ai/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://web4application.github.io/project_pilot_ai/">project_pilot_ai</a></h1>
+      
+
+      <p>This represents an entry in the zip file. If the entry comes from an existing
+archive previously <a href="/project_pilot_ai/documentation/api_jszip/load_async.html">loaded</a>, the content
+will be automatically decompressed/converted first.</p>
+
+<h3 id="attributes">Attributes</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>attribute name</th>
+      <th>type</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">name</code></td>
+      <td>string</td>
+      <td>the absolute path of the file</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">dir</code></td>
+      <td>boolean</td>
+      <td>true if this is a directory</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">date</code></td>
+      <td>date</td>
+      <td>the last modification date</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">comment</code></td>
+      <td>string</td>
+      <td>the comment for this file</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">unixPermissions</code></td>
+      <td>16 bits number</td>
+      <td>The UNIX permissions of the file, if any.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">dosPermissions</code></td>
+      <td>6 bits number</td>
+      <td>The DOS permissions of the file, if any.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">options</code></td>
+      <td>object</td>
+      <td>the options of the file. The available options are :</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">options.compression</code></td>
+      <td>compression</td>
+      <td>see <a href="/project_pilot_ai/documentation/api_jszip/file_data.html">file(name, data [,options])</a></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">options.compressionOptions</code></td>
+      <td>object</td>
+      <td>see <a href="/project_pilot_ai/documentation/api_jszip/file_data.html">file(name, data [,options])</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Example:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span> <span class="nl">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">docs/</span><span class="dl">'</span><span class="p">,</span>
+  <span class="nx">dir</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+  <span class="nx">date</span><span class="p">:</span> <span class="mi">2016</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">25</span><span class="nx">T08</span><span class="p">:</span><span class="mi">09</span><span class="p">:</span><span class="mf">27.153</span><span class="nx">Z</span><span class="p">,</span>
+  <span class="nx">comment</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+  <span class="nx">unixPermissions</span><span class="p">:</span> <span class="mi">16877</span><span class="p">,</span>
+  <span class="nx">dosPermissions</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+  <span class="nx">options</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nl">compression</span><span class="p">:</span> <span class="dl">'</span><span class="s1">STORE</span><span class="dl">'</span><span class="p">,</span>
+    <span class="nx">compressionOptions</span><span class="p">:</span> <span class="kc">null</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span> <span class="nl">name</span><span class="p">:</span> <span class="dl">'</span><span class="s1">docs/list.txt</span><span class="dl">'</span><span class="p">,</span>
+  <span class="nx">dir</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+  <span class="nx">date</span><span class="p">:</span> <span class="mi">2016</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">25</span><span class="nx">T08</span><span class="p">:</span><span class="mi">09</span><span class="p">:</span><span class="mf">27.152</span><span class="nx">Z</span><span class="p">,</span>
+  <span class="nx">comment</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+  <span class="nx">unixPermissions</span><span class="p">:</span> <span class="mi">33206</span><span class="p">,</span>
+  <span class="nx">dosPermissions</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+  <span class="nx">options</span><span class="p">:</span> <span class="p">{</span>
+    <span class="nl">compression</span><span class="p">:</span> <span class="dl">'</span><span class="s1">DEFLATE</span><span class="dl">'</span><span class="p">,</span>
+    <span class="nx">compressionOptions</span><span class="p">:</span> <span class="kc">null</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
